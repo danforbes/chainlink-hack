@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Circular';
+  src: url('./lib/circular.otf') format("opentype");
+}
+
+html {
+  background-image: url("./lib/background.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F6F5EE;
+  font-family: 'Circular';
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #F6F5EE;
+}
+
+li {
+  position: relative;
+  list-style-type: none;
+}
+
+li:before {
+  content: "";
+  background-image: url('./lib/chainlink.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0.25em;
+  left: -0.75em;
+  width: 0.5em;
+  height: 0.5em;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 4vmax;
+}
+
+#header img {
+  width: 1em;
+  padding-right: 0.25em;
+}
+
+#resources {
+  font-size: 4vmin;
+}
