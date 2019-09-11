@@ -38,6 +38,10 @@ li:before {
   height: 0.5em;
 }
 
+.subtext {
+  font-size: 2vmin;
+}
+
 #content {
   height: 100vh;
   display: flex;
@@ -46,7 +50,7 @@ li:before {
 }
 
 #header {
-  padding-top: 20px;
+  padding-top: 4vh;
   display: flex;
   align-items: center;
   font-size: 4vmax;
