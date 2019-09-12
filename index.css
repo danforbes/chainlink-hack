@@ -38,10 +38,6 @@ li:before {
   height: 0.5em;
 }
 
-.subtext {
-  font-size: 2vmin;
-}
-
 #content {
   height: 100vh;
   display: flex;
